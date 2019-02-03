@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1029508940920",
+    "firebase_url": "https://egora-f9e76.firebaseio.com",
+    "project_id": "egora-f9e76",
+    "storage_bucket": "egora-f9e76.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1029508940920:android:a1f85517ff26bb60",
+        "android_client_info": {
+          "package_name": "dstecher.egora"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1029508940920-a6rqbb5698s51v2l8en5vq3kuqgqklcb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "dstecher.egora",
+            "certificate_hash": "06c024073a4a40695d0d9597de2100ab3f8ce2ad"
+          }
+        },
+        {
+          "client_id": "1029508940920-1mvci85b8irfi5c2tuusi464ifikd7f5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABYI7ZOLKqnUSILJISNcCBU8cFg4y53sA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1029508940920-1mvci85b8irfi5c2tuusi464ifikd7f5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
