@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".LoginActivity">
-
+    tools:context=".CreateAccountActivity">
+<!--
     <TextView
         android:id="@+id/title"
         android:layout_width="206dp"
@@ -52,7 +52,7 @@
         app:layout_constraintTop_toBottomOf="@+id/editText" />
 
     <Button
-        android:id="@+id/buttonLogin123"
+        android:id="@+id/button"
         style="@android:style/Widget.Material.Light.Button.Borderless"
         android:layout_width="322dp"
         android:layout_height="72dp"
@@ -105,6 +105,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
+-->
 
 </androidx.constraintlayout.widget.ConstraintLayout>
