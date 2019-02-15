@@ -16,8 +16,8 @@ public class LoginActivity extends AppCompatActivity {
     private TextView linkRegisterNow;
 
     // wird noch nicht verwendet ******************************
-    private EditText username;
-    private EditText email;
+    private EditText editEmail;
+    private EditText editPassword;
     private TextView linkForgotPassword;
 
     @Override
@@ -26,18 +26,19 @@ public class LoginActivity extends AppCompatActivity {
         setContentView(R.layout.activity_login);
         getSupportActionBar().hide(); // hide the app title bar
 
+        // Declaration
         buttonLogin = findViewById(R.id.buttonLogin);
         linkRegisterNow = findViewById(R.id.textRegister);
-        username = findViewById(R.id.logUsername);
-        email = findViewById(R.id.logEmail);
+        editEmail = findViewById(R.id.logEmail);
+        editPassword = findViewById(R.id.logPassword);
         linkForgotPassword = findViewById(R.id.textForgotPassword);
 
         // Login with firebase auth
         buttonLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // hier Login mit Firebase Auth ausführen
                 Log.i("login", "login button clicked"); // nur zum Testen
+                // hier Login mit Firebase Auth ausführen
             }
         });
 
@@ -48,6 +49,7 @@ public class LoginActivity extends AppCompatActivity {
                 Log.i("register", "switch to registerview"); // nur zum Testen
                 Intent intent = new Intent(getBaseContext(), CreateAccountActivity.class);
                 startActivity(intent);
+                //finish();
             }
         });
 

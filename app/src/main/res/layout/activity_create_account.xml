@@ -34,12 +34,12 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <EditText
-            android:id="@+id/regUsername"
+            android:id="@+id/regEmail"
             android:layout_width="320dp"
             android:layout_height="72dp"
             android:layout_marginTop="40dp"
             android:background="#D8D8D8"
-            android:hint="Username"
+            android:hint="E-Mail"
             android:paddingLeft="20dp"
             android:textColor="@color/darkTextColor"
             android:textSize="20sp"
@@ -54,34 +54,34 @@
             android:ellipsize="end"/>
 
         <EditText
-            android:id="@+id/regEmail"
+            android:id="@+id/regPassword"
             android:layout_width="320dp"
             android:layout_height="72dp"
             android:layout_marginTop="@dimen/marginEditText"
             android:background="#D8D8D8"
-            android:hint="Email"
+            android:hint="Password"
             android:paddingLeft="20dp"
             android:textColor="@color/darkTextColor"
             android:textSize="20sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.505"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/regUsername" />
+            app:layout_constraintTop_toBottomOf="@+id/regEmail" />
 
         <EditText
-            android:id="@+id/regEmailRepeat"
+            android:id="@+id/regPasswordRepeat"
             android:layout_width="320dp"
             android:layout_height="72dp"
             android:layout_marginTop="@dimen/marginEditText"
             android:background="#D8D8D8"
-            android:hint="Repeat Email"
+            android:hint="Repeat Password"
             android:paddingLeft="20dp"
             android:textColor="@color/darkTextColor"
             android:textSize="20sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.494"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/regEmail" />
+            app:layout_constraintTop_toBottomOf="@+id/regPassword" />
 
         <EditText
             android:id="@+id/regFirstName"
@@ -96,7 +96,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.494"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/regEmailRepeat" />
+            app:layout_constraintTop_toBottomOf="@+id/regPasswordRepeat" />
 
         <EditText
             android:id="@+id/regLastName"

@@ -23,34 +23,44 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/logUsername"
+        android:id="@+id/logEmail"
         android:layout_width="320dp"
         android:layout_height="72dp"
         android:layout_marginTop="32dp"
         android:background="#D8D8D8"
-        android:hint="Username"
+        android:hint="E-Mail"
         android:paddingLeft="20dp"
         android:textColor="@color/darkTextColor"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/titleLoginView" />
+        app:layout_constraintTop_toBottomOf="@+id/titleLoginView"
+        android:inputType="text"
+        android:maxLines="1"
+        android:lines="1"
+        android:scrollHorizontally="true"
+        android:ellipsize="end"/>
 
     <EditText
-        android:id="@+id/logEmail"
+        android:id="@+id/logPassword"
         android:layout_width="320dp"
         android:layout_height="72dp"
         android:layout_marginTop="12dp"
         android:background="#D8D8D8"
-        android:hint="Email"
+        android:hint="Password"
         android:paddingLeft="20dp"
         android:textColor="@color/darkTextColor"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/logUsername" />
+        app:layout_constraintTop_toBottomOf="@+id/logEmail"
+        android:inputType="text"
+        android:maxLines="1"
+        android:lines="1"
+        android:scrollHorizontally="true"
+        android:ellipsize="end"/>
 
     <Button
         android:id="@+id/buttonLogin"
@@ -66,7 +76,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/logEmail" />
+        app:layout_constraintTop_toBottomOf="@+id/logPassword" />
 
     <TextView
         android:id="@+id/textRegister"
